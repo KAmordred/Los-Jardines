@@ -1,9 +1,10 @@
 /* Estilos generales */
 
 body {
-    background: linear-gradient(135deg, #0057b8, #f1c40f); /* Azul a Amarillo */
+    background: linear-gradient(135deg, #0057b8, #f0ec06d2); /* Azul a Amarillo */
+    background-attachment: fixed;
     color: white; /* Para que el texto se vea bien */
-    height: 100%;
+    min-height: 100%; /* Para que el fondo crezca junto a la pagina */
     display: flex;
     flex-direction: column;
 }
@@ -67,3 +68,20 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
+.trofeo {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .trofeo img {
+    margin: 30px; /* Ajusta el margen según lo necesites */
+    cursor: zoom-in; /* Hace que la imagen sea interactiva */
+  }
+  
+  p {
+    text-align: center;
+    padding: 20px;
+  }
+  
